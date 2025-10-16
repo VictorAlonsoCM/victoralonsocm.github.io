@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/Mexico_City
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -23,26 +23,35 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+title: EvilMachine # the main title
+
+tagline: A piece of myself and more. # it will display as the subtitle
+
+description: >- # used by seo meta and the atom feed
+  A blog about security, my thoughts and experiences.
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://victoralonsocm.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: victoralonsocm # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: _Evil_Machine # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: EvilMachine
+  email: vacontrerasmeza@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://x.com/_Evil_Machine # change to your Twitter homepage
+    - https://github.com/VictorAlonsoCM # change to your GitHub homepage
+    - https://www.linkedin.com/in/victor-contreras-805393159/
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -59,7 +68,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-D50WT26B22
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -98,7 +107,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "https://avatars.githubusercontent.com/u/15523416?v=4"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
