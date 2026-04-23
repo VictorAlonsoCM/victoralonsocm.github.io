@@ -1209,7 +1209,8 @@ img:not(.preview-img),
 
 /* Post content images: same width as text, centered */
 .post-content img:not(.preview-img),
-.post-body img:not(.preview-img) {
+.post-body img:not(.preview-img),
+.content img:not(.preview-img) {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
