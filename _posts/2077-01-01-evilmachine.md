@@ -1,6 +1,6 @@
 ---
 title: EvilMachine
-description: Do it or don't. The time will pass anyway.
+description: Either embrace the mess of progress, or get comfortable with the dust of standing still
 author: victor_contreras
 date: 2025-10-16 11:33:00 +0800
 categories: [Blogging, Notes]
