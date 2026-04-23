@@ -1,10 +1,10 @@
 ---
 title: HTML Smuggling
-description: Red Team Shorts: HTML Smuggling. A client-side delivery technique that leverages HTML5 and JavaScript features to bypass perimeter security controls, encode malicious payloads and deliver them to the victim's local systems.
+description: Red Team Shorts - HTML Smuggling. A client-side delivery technique that leverages HTML5 and JavaScript features to bypass perimeter security controls, encode malicious payloads and deliver them to the victim's local systems.
 author: victor_contreras
 date: 2026-04-22 01:33:00 +0800
 categories: [Red Team, Notes, HTML Smuggling]
-tags: [Red Team, Notes, HTML Smuggling]
+tags: [RedTeam, Notes, HTMLSmuggling]
 math: true
 mermaid: true
 image:
