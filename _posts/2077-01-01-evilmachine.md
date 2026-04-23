@@ -10,7 +10,7 @@ math: true
 mermaid: true
 image:
   path: /assets/headers/banner.jpg
-  alt: Status update...
+  alt: Either embrace the mess of progress, or get comfortable with the dust of standing still
 ---
 
 # H1 — Hello My Old Friend
