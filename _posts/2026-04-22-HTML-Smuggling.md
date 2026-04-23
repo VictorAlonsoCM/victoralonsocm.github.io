@@ -51,7 +51,7 @@ The following JavaScript code contains a `Blob` with the Meterpreter executable 
 
 Download is triggered automatically after the victim visits the page. Unfortunately, a warning may be displayed due to the potentially unsafe file format.
 
-```html
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
