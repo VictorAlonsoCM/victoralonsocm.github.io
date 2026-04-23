@@ -12,10 +12,10 @@ image:
   alt: The Muddy Road and The Long Wait. Either embrace the mess of progress, or get comfortable with the dust of standing still
 ---
 
+# HTML Smuggling
+
 > I am not an expert in the red teaming field and I do not pretend to be. I am here just to share a few short notes of the techniques I have been learning about this interesting area.
 {: .prompt-warning }
-
-# HTML Smuggling
 
 HTML Smuggling is a client-side delivery technique that leverages HTML5 and JavaScript features to bypass perimeter security controls. HTML Smuggling encodes the binary payload directly into an HTML or JS file. The browser then reconstructs the file locally using certain JavaScript APIs and functions to deliver the malicious payload to the victim's system. This is a common phishing technique used to deliver malicious arbitrary files.
 
