@@ -4,7 +4,7 @@ description: Red Team Shorts - HTML Smuggling. A client-side delivery technique 
 author: victor_contreras
 date: 2026-04-22 01:33:00 +0800
 categories: [Red Team, Notes, HTML Smuggling]
-tags: [RedTeam, Notes, HTMLSmuggling]
+tags: [Red Team, Notes, HTML Smuggling]
 math: true
 mermaid: true
 image:
