@@ -1169,10 +1169,13 @@ a.tag:hover,
 #tags .tag span {
   color: var(--retro-text-dim) !important;
   font-family: 'JetBrains Mono', monospace !important;
-  font-size: 0.75em !important;
+  font-size: 1em !important;
   font-variant-numeric: tabular-nums;
 }
 
+#tags > div {
+  margin-top: 0.5rem !important;
+}
 /* ===== Buttons & Inputs ===== */
 button,
 .btn:not(.post-tag),
@@ -1206,8 +1209,7 @@ img:not(.preview-img),
 
 /* Post content images: same width as text, centered */
 .post-content img:not(.preview-img),
-.post-body img:not(.preview-img),
-.content img:not(.preview-img) {
+.post-body img:not(.preview-img) {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
