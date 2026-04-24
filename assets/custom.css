@@ -786,6 +786,10 @@ li,
   border-color: var(--retro-green-dim) !important;
 }
 
+#archives .year::after{
+  left: 19px;
+}
+
 #archives a {
   color: var(--retro-text) !important;
   transition: color 0.15s !important;
