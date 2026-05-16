@@ -849,6 +849,11 @@ div[class^='language-'] .highlight {
   border-radius: 0 !important;
 }
 
+/* Fixed indentation and space color of code block not consistent with background. */
+.highlight .w {
+  background-color: transparent !important;
+}
+
 /* Code header (language label + copy button) */
 .code-header {
   background: var(--retro-bg-elevated) !important;
